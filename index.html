@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zemoso Restaurant</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="flex-app">
+        <div class="flex-item tables">
+            <h3>Tables</h3>
+            <input type="text" name="tableName" class="table-search" placeholder="Search Table" />
+            <div class="table-list">
+                <!-- Updates Dtnamically -->
+            </div>
+        </div>
+
+        <div class="flex-item menu">
+            <h3>Menu</h3>
+            <input type="text" class="menu-search" placeholder="Search menu.. by course, by food" />
+            <h4 class="profit right">
+                <span class="profit-border">
+                    Total Order Amount Today: 
+                    <span class="total-profit">0</span>
+                </span>
+            </h4>
+            <div class="menu-list">
+                <div class="menu-i" id="menu-1" draggable="true">
+                    <h2>Panner Tikka</h2>
+                    <p class="course">Curry</p>
+                    <span>₹</span>
+                    <p class="price">250.45</p>
+                </div>
+                <div class="menu-i" id="menu-2" draggable="true">
+                    <h2>French Fries</h2>
+                    <p class="course">Snacks</p>
+                    <span>₹</span>
+                    <p class="price">105.00</p>
+                </div>
+                <div class="menu-i" id="menu-3" draggable="true">
+                    <h2>Veg Biryani</h2>
+                    <p class="course">Main Course</p>
+                    <span>₹</span>
+                    <p class="price">170.00</p>
+                </div>
+                <div class="menu-i" id="menu-4" draggable="true">
+                    <h2>Veg Fried Rice</h2>
+                    <p class="course">Main Course</p>
+                    <span>₹</span>
+                    <p class="price">150.00</p>
+                </div>
+                <div class="menu-i" id="menu-5" draggable="true">
+                    <h2>Veg Manchuria</h2>
+                    <p class="course">Starter</p>
+                    <span>₹</span>
+                    <p class="price">120.00</p>
+                </div>
+                <div class="menu-i" id="menu-5" draggable="true">
+                    <h2>Spring Rolls</h2>
+                    <p class="course">Starter</p>
+                    <span>₹</span>
+                    <p class="price">120.00</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="table-info-pop-up">
+        <div class="header">
+            <h3 class="table-details">Table | Order Details</h3>
+            <h3 class="close">X</h3>
+        </div>
+        <table class="bill-info">
+            <thead>
+                <tr>
+                    <th>S.No</th>
+                    <th>Item</th>
+                    <th>Price</th>
+                    <th>Servings</th>
+                    <th>Total Price</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="orderDetails">
+                <!-- Dynamic rows will be inserted here -->
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4">Total:</td>
+                    <td id="totalPrice"></td>
+                </tr>
+            </tfoot>
+        </table>
+        <div class="generate-bill right">
+            <p>CLOSE SESSION (GENERATE BILL)</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
