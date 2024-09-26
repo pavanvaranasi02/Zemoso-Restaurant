@@ -66,6 +66,7 @@ This project is a dynamic restaurant management application designed to streamli
 ![image](https://github.com/user-attachments/assets/4b4fc9c7-25f7-4469-85d5-8f6184b16591)
 <img width="1440" alt="Screenshot 2024-09-03 at 1 00 50 AM" src="https://github.com/user-attachments/assets/ad48c923-2222-4f39-be3a-d0f174e6424c">
 <img width="1440" alt="Screenshot 2024-09-03 at 1 01 23 AM" src="https://github.com/user-attachments/assets/be8316c9-17fb-4f07-a17b-112bdab46def">
+<img width="1438" alt="Screenshot 2024-09-03 at 1 01 35 AM" src="https://github.com/user-attachments/assets/3166aec0-b783-4155-8e20-2018e6c121cb">
 
 **Search Functionality for tables uses debouncing:**
 <img width="349" alt="Screenshot 2024-09-03 at 1 02 35 AM" src="https://github.com/user-attachments/assets/f9d8898a-1844-46f2-8a1b-7de1b4fc0b51">
